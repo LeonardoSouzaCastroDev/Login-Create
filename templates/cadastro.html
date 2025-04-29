@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/static/icon.png">
+  <link rel="stylesheet" href="/static/style.css">
+  <title> Cadastro </title>
+</head>
+<body>
+  <div class="card">
+    <h2>Cadastro</h2>
+    <form action="/cadastrar" method="post">
+      <input type="text" name="usuario" placeholder="Nome de Usuário" required>
+      <input type="password" name="senha" placeholder="Senha">
+      <button type="submit"> Cadastrar </button>
+    </form>
+    <p><a href="/">Voltar para login</a></p>
+  </div>
+</body>
+</html>
